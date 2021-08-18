@@ -1,0 +1,146 @@
+<div class="page home">
+    <div class="container" style="max-width: 70%;">
+        <div class="row" style="justify-content: center;">
+            <div class="col-md-6 text-center mt-2" style="display: contents;">
+                <h2 class="page-title">
+                    Sign-Up Sayfası
+                </h2>
+            </div>
+        </div>
+      <!-- <form [formGroup]="SignUpForm" (ngSubmit)="onSubmit()"> -->
+        <div class="row mt-4">
+            <div class="col-md-12 text-center" >
+            <!-- Yaptığımız card kodu başlangıcı -->
+                <mat-card class="d-flex" style="margin-bottom: 2%">
+                    <form class="example-form" >
+                        <mat-form-field class="example-full-width text-center mt-2">
+                          <input matInput placeholder="Ali" class="inputText">
+                          <mat-label style="color: black;">Ad</mat-label>
+                        </mat-form-field>
+                        
+                        <mat-form-field class="example-full-width text-center mt-2">
+                            <input matInput placeholder="Yılmaz" class="inputText">
+                            <mat-label style="color: black;">Soyad</mat-label>
+                        </mat-form-field>
+                        
+                        <mat-form-field class="example-full-width text-center mt-2">
+                            <input matInput placeholder="ali@vakifbank.com" type="email" class="inputText">
+                            <mat-label style="color: black;">E-posta</mat-label>
+                        </mat-form-field>
+
+                        <mat-form-field class="example-full-width text-center mt-2">
+                          <input matInput placeholder="Şifre Giriniz" type="password" class="inputText text-center mt-2">
+                          <mat-label style="color: black;" >Şifre</mat-label>
+                        </mat-form-field>
+
+                        <mat-form-field class="example-full-width text-center mt-2" appearance="fill">
+                            <mat-label >Biriminizi Seçiniz</mat-label>
+                            <mat-select>
+                              <mat-option value="one" style="color: black;">Mevduat - MVD</mat-option>
+                              <mat-option value="two" style="color: black;">Para Transferi - PRT</mat-option>
+                              <mat-option value="three" style="color: black;">Yatırım - YTR</mat-option>
+                              <mat-option value="four" style="color:black">Kredi - KRD</mat-option> 
+                            </mat-select>
+                          </mat-form-field>
+
+                          <mat-form-field class="example-full-width text-center mt-2" appearance="fill">
+                            <mat-label >Rolünüzü Seçiniz</mat-label>
+                            <mat-select>
+                              <mat-option value="one" style="color: black;">Müşteri - MST</mat-option>
+                              <mat-option value="two" style="color: black;">Developer - DEV</mat-option>
+                              <mat-option value="three" style="color: black;">Admin - ADM</mat-option>
+                            </mat-select>
+                          </mat-form-field>
+
+                          <br>
+                          <button class="KaydolButon text-center mt-12" mat-raised-button color="primary" disabled="" style=" width: 60%; margin-top: 2%; margin-bottom: 3%; height: 50px; " type="submit">Kaydol</button>
+
+                        <!-- <div class="example-container">
+                            <mat-form-field appearance="fill">
+                              <mat-label>Enter your email</mat-label>
+                              <input matInput placeholder="pat@example.com" [formControl]="email" required>
+                              <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                            </mat-form-field>
+                          </div> -->
+                        
+                        <!-- <mat-form-field class="example-full-width">
+                            <input matInput placeholder="Vakıfbank" class="inputText">
+                            <mat-label>Şifre</mat-label>
+                        </mat-form-field> -->
+
+                        <!-- <div class="example-container">
+                            <mat-form-field appearance="fill">
+                              <mat-label>Enter your email</mat-label>
+                              <input matInput placeholder="pat@example.com" [formControl]="email" required>
+                              <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                            </mat-form-field>
+                          </div> -->
+
+                        <!-- <mat-form-field appearance="fill">
+                            <mat-label>Select me</mat-label>
+                            <mat-select>
+                              <mat-option value="option">Option</mat-option>
+                            </mat-select>
+                          </mat-form-field> -->
+
+                        <!-- <mat-form-field appearance="fill">
+                            <mat-label>Select</mat-label>
+                            <mat-select>
+                              <mat-option value="one">First option</mat-option>
+                              <mat-option value="two">Second option</mat-option>
+                            </mat-select>
+                          </mat-form-field> -->
+                    </form>
+                </mat-card>
+            </div>
+        </div>
+      <!-- </form>   -->
+        <div class="row">
+            <div class="col-md-12 text-center mt-2">
+                <small>Kerim Şenol -  2020 ® </small>
+                <!-- <h5>®</h5> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div class="main-wrapper" fxLayout="row" fxLayoutAlign="center center">
+
+    <mat-card class="box">
+      <mat-card-header>
+        <mat-card-title>Sign In</mat-card-title>
+      </mat-card-header>
+  
+      <form class="example-form">
+        <mat-card-content>
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Username">
+          </mat-form-field>
+  
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Password">
+          </mat-form-field>
+        </mat-card-content>
+        <button mat-stroked-button color="accent" class="btn-block">Sign-in</button>
+      </form>
+    </mat-card>
+  
+  </div> -->
